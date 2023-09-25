@@ -1,0 +1,20 @@
+package com.gentech.patterns;
+
+public class Hashdowhiledemo {
+
+	public static void main(String[] args) {
+		int i=1;
+		do
+		{
+			int k=1;
+			do
+			{
+				System.out.print("# ");
+				k++;
+			}while(k<=6);
+		}while(i<=3);
+		System.out.println();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.assignments.arraysss;
+
+public class Array2demo {
+	public static void main (String[]args)
+	{
+		String x[]= {"vandhu","vardhan","sasi","sapna","kavya","preethi"};
+		for(int i=x.length-1;i>=0;i--)
+		{
+			System.out.println(x[i]);
+		}
+	}
+
+}

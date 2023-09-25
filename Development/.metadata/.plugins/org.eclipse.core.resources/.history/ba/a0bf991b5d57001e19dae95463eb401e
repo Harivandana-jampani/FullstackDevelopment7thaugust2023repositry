@@ -1,0 +1,23 @@
+package com.gentech.Interfacedemo;
+interface shoppingmallloc
+{
+	void shoppingmallloc(String name);
+}
+interface mallname extends shoppingmallloc
+{
+	void showmallname (int id);
+}
+interface details extends mallname 
+{
+	void showdetails(String details);
+}
+class Mall1 implements mallname
+{
+	public void showmallname(int id)
+	
+	
+}
+
+public class Assign5hierchicalinterfacedemo {
+
+}

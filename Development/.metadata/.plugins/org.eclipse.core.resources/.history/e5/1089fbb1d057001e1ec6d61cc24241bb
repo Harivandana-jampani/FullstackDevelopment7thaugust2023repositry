@@ -1,0 +1,50 @@
+package com.gentech.Polymorphism;
+abstract class food
+{
+	abstract void tastes();
+}
+class food1  extends food
+{
+	void foods1()
+	{
+		String tasteoffood;
+		System.out.println("taste of food name :"+tasteoffood);
+	}
+
+}
+class Spicy extends food
+{
+	String 
+}
+class Rectangle extends Geometricfigure
+{
+	void perimeter()
+	{
+		int length,breadth;
+		length=10;
+		breadth=20;
+		System.out.println("perimeter rectangle:"+(2*(length+breadth)));
+	}
+}
+
+public class Assign1perimeterdemo {
+
+	public static void main(String[] args) {
+		Geometricfigure figure=null;
+		Triangle tri=new Triangle();
+		Square squa=new Square();
+		Rectangle rect=new Rectangle();
+		figure=tri;
+		figure.perimeter();
+		figure=squa;
+		figure.perimeter();
+		figure=rect;
+		figure.perimeter(
+
+public class Assign2foodtastedemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

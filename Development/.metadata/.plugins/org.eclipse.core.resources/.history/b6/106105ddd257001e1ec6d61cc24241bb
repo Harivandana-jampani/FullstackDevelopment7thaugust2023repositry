@@ -1,0 +1,10 @@
+package com.gentech.Polymorphism;
+
+public class Assign3animalsounddemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

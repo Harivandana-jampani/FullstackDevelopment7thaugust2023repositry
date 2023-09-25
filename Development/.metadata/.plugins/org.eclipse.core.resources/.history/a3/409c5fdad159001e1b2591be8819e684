@@ -1,0 +1,26 @@
+package com.gentech.abstractdemo;
+abstract class Student
+{
+	static 
+	{
+		System.out.println("it is a static block");
+	}
+}
+class Stud extends Student
+{
+	
+}
+
+public class Staticblockdemo {
+
+	public static void main(String[] args) {
+		Stud obj=new Stud();
+		
+		
+		
+		
+		
+
+	}
+
+}

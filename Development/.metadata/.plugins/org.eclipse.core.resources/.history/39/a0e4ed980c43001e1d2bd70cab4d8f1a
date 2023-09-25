@@ -1,0 +1,22 @@
+package com.gentech.patterns;
+
+public class Hashprograminwhiledemo {
+
+	public static void main(String[] args) {
+		int i=1;
+		int k=1;
+		while(i<=3)
+		{
+			while(k<=6)
+			{
+				System.out.print("# ");
+				k++;
+			}
+			i++;
+			System.out.println();
+			
+		}
+
+	}
+
+}

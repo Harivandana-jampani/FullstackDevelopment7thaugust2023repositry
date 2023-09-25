@@ -1,0 +1,50 @@
+package com.gentech.Polymorphism;
+abstract class food
+{
+	abstract void tastes();
+}
+class gulabjammun  extends food
+{
+	void tastes()
+	{
+		String tasteoffood;
+		System.out.println("taste of food name :"+tasteoffood);
+	}
+
+}
+class chips extends food
+{
+	void tastes()
+	{
+		String tasteofitem;
+		System.out.println("taste of food:"+tasteofitem);
+	}
+}
+class mango extends food
+{
+	void tastes()
+	{
+		String Flavouroffood;
+		System.out.println("flavour of food:"+Flavouroffood);
+	}
+
+
+}
+public class Assign2foodtastedemo {
+
+	public static void main(String[] args) {
+		food foods=null;
+		gulabjammun jammun=new gulabjammun();
+		mango mangos=new mango();
+		chips chips=new chips();
+		foods=jammun;
+		foods.tastes();
+		foods=mangos;
+		foods.tastes();
+		foods=chips;
+		foods.tastes();
+
+
+	}
+
+}

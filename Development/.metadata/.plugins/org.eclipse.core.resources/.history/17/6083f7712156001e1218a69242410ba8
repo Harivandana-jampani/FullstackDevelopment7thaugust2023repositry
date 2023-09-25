@@ -1,0 +1,23 @@
+package com.assignments.arraysss;
+
+public class Array5demo {
+
+	public static void main(String[] args) {
+		int x[]= new int[10];
+		int k=0;
+		for(int j=1;j<=10;j++)
+		{
+			if(j%4==0)
+			{
+				x[k]=j;
+				k++;
+			}
+		}
+		for(int z=x.length-1;z>=0;z--)
+		{
+			System.out.println(x[z]);
+		}
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.gentech.Interfacedemo;
+
+public class Assign1morethan3mulinheritence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
